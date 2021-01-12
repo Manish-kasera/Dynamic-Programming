@@ -49,8 +49,8 @@ int main()
 
         int ans = Knapsack(wt, val, W, n);
         cout << ans<<endl;
-
-        return 0;
     }
+    
+    return 0;
 
 }
