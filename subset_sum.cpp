@@ -2,6 +2,11 @@
 using namespace std;
 #define llint long long int
 
+
+/*
+ if the output is 0---> then subset_sum is not possible..
+ if the output is 1---> then subset_sum is possible..
+*/
 int t[5 + 1][11 + 1];
 
 int subset_sum(int arr[], int n, int sum)
