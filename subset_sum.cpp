@@ -14,7 +14,7 @@ int subset_sum(int arr[], int n, int sum)
             if (i == 0)
                 t[i][j] = 0; //filling Oth row with zero (false)
             if (j == 0)
-                t[i][j] = 1; //filling 0th column with zero(true)
+                t[i][j] = 1; //filling 0th column with one(true)
         }
     }
 
